@@ -2,4 +2,4 @@
 
 ##Task1: Docker Commands with screenshots.
 01. Docker version
-![Doker version](/images/docker_version.png)
+![Doker version](docker_version.png)
