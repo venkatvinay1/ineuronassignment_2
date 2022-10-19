@@ -18,13 +18,11 @@ jobs:
       env: 
         DOCKER_USER: ${{secrets.DOCKER_USER}}
         DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
-      run:
-        docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag venkatvinay1/helloworldapp:$(date +%s)
-    
-    - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/helloworldapp:${{ github.run_number }}
-
+    - name: Build and push to docker hub
+      uses: docker/build-push-action@v3
+      with:
+        context: .
+        push: true
+        tags: venkatvinay1/newhelloworldapp:latest, venkatvinay1/newhelloworldapp: %{{ github.run_number}} 
 
 
