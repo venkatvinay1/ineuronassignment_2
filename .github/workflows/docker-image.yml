@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag venkatvinay1/ineuronassignment_2:$(date +%s)
     - name: DOCKER Push
-      run: docker push ${{secrets.DOCKER_USER}}/helloworld-app
+      run: docker push ${{secrets.DOCKER_USER}}/helloworldapp
