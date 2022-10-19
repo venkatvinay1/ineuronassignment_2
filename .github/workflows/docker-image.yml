@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: docker login
       env: 
         DOCKER_USER: ${{secrets.DOCKER_USER}}
@@ -24,7 +24,7 @@ jobs:
       run: docker build . --file Dockerfile --tag venkatvinay1/helloworldapp:$(date +%s)
     
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/helloworldapp:lastest
+      run: docker push ${{secrets.DOCKER_USER}}/helloworldapp:latest
 
 
 
