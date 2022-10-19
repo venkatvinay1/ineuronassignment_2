@@ -24,7 +24,7 @@ jobs:
       run: docker build . --file Dockerfile --tag venkatvinay1/helloworldapp:$(date +%s)
     
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/helloworldapp2
+      run: docker push ${{secrets.DOCKER_USER}}/helloworldapp:latest
 
 
 
