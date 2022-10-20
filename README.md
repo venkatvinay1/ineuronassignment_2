@@ -6,6 +6,8 @@
 
 ![](./images/docker_version.png)
 
+``` docker --version ```
+
 02. Docker build
 
 
