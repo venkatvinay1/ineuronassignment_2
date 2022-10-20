@@ -1,4 +1,4 @@
-name: ci
+name: ineuron_assignment_ci
 on:
   workflow_dispatch: {}
   #push:
