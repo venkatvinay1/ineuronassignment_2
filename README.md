@@ -4,12 +4,12 @@
 
 01. Docker version 
 
-![](docker_version.png)
+![](./images/docker_version.png)
 
 02. Docker build
 
 
-![](docker_version.png)
+![](./images/docker_version.png)
 
 
 
@@ -17,7 +17,7 @@
 
 
 
-![](docker_deleteimage.png)
+![](./images/docker_deleteimage.png)
 
 
 
@@ -26,7 +26,7 @@
 
 
 
-![](docker_images.png)
+![](./images/docker_images.png)
 
 
 
@@ -37,7 +37,7 @@
 
 
 
-![](docker_ps.png)
+![](./images/docker_ps.png)
 
 
 
@@ -47,7 +47,7 @@
 
 
 
-![](docker_run.png)
+![](./images/docker_run.png)
 
 
 
@@ -58,4 +58,4 @@
 
 
 
-![](docker_stop.png)
+![](./images/docker_stop.png)
