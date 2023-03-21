@@ -65,4 +65,4 @@
 
 08.  ``` docker container run -it --name mywebserver ubuntu /bin/bash ``` 
 
-09.  ``docker --version``
+09.  `docker --version`
