@@ -66,3 +66,5 @@
 08.  ``` docker container run -it --name mywebserver ubuntu /bin/bash ``` 
 
 09.  `docker --version`
+
+10. `docker conatainer run -it -p 3600:80 ununtu /bin/bash `
