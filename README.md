@@ -67,4 +67,4 @@
 
 09.  `docker --version`
 
-10. `docker conatainer run -it -p 3600:80 ununtu /bin/bash `
+10. `docker conatainer run -it -p 3600:80 ubuntu /bin/bash `
