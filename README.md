@@ -69,8 +69,11 @@
 
 10. `docker conatainer run -it -p 3600:80 ubuntu /bin/bash `
 
-11. ` docker container kill webserver `
+11. ` docker container kill webserver ` --> will kill the conatiner forceably
 
 12. `docker container attach containerid ` --> will enter the bash shell
 
-13. 
+13. `docker container export containerid -o web.tar` --> to export the image
+14. `docker image import web.tar webimage` --> to import the image
+15. `docker container commit <containerid> mynewwebimage`
+16. ``
