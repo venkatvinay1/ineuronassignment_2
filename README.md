@@ -70,3 +70,6 @@
 10. `docker conatainer run -it -p 3600:80 ubuntu /bin/bash `
 
 11. ` docker container kill webserver `
+
+12. `docker container attach containerid ` --> will enter the bash shell
+13. 
