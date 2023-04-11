@@ -74,6 +74,23 @@
 12. `docker container attach containerid ` --> will enter the bash shell
 
 13. `docker container export containerid -o web.tar` --> to export the image
+
 14. `docker image import web.tar webimage` --> to import the image
+
 15. `docker container commit <containerid> mynewwebimage`
-16. ``
+
+16. `kill -9 imageid`
+
+17. `docker container pause --nameofthecontainer`
+
+18. `dcoker container unpause --nameofthecontainer`
+
+19. `dcoker container stop --nameofthecontainer`
+
+20. `dcoker container stop --nameofthecontainer
+
+21. `dcoker container wait --nameofthecontainer`
+
+22. `137 exit` --> it will forcefully kill the container.
+
+23. `0` --> safely exited.
