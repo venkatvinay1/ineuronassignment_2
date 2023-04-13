@@ -96,9 +96,9 @@
 23. `0` --> safely exited.
 
 24. `docker container export <nameofimage> -o web.tar` 
-
+25. ``
 26. `docker image import web.tar webimage`
-27. 
+27. ``
 28. `docker container run -it webimage /bin/bash
 29. `docker container ls`
 30. `docker container commit <nameofimage> mywebimage`  
