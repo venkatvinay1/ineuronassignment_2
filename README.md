@@ -99,7 +99,8 @@
 25. ``
 26. `docker image import web.tar webimage`
 27. ``
-28. `docker container run -it webimage /bin/bash
+28. `docker container run -it webimage /bin/bash`
 29. `docker container ls`
 30. `docker container commit <nameofimage> mywebimage`  
 31. `dcoker container run -it mywebimage /bin/bash`
+32. ``
