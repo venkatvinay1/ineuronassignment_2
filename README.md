@@ -94,3 +94,12 @@
 22. `137 exit` --> it will forcefully kill the container.
 
 23. `0` --> safely exited.
+
+24. `docker container export <nameofimage> -o web.tar` 
+
+26. `docker image import web.tar webimage`
+27. 
+28. `docker container run -it webimage /bin/bash
+29. `docker container ls`
+30. `docker container commit <nameofimage> mywebimage`  
+31. `dcoker container run -it mywebimage /bin/bash`
