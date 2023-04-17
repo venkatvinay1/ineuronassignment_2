@@ -103,4 +103,7 @@
 29. `docker container ls`
 30. `docker container commit <nameofimage> mywebimage`  
 31. `dcoker container run -it mywebimage /bin/bash`
-32. ``
+32. `docker conatiner exec -it mydb-server bash` --> to get inside the conatiner
+33. `docker conatiner run -it --name mydbserver -v <idofthevolume:/var/lib /mysql> -e MYSQK_ALLOW_EMPTY_PASSWORD=true mysql` --> To add an existing volume to a mysqldatabase server
+34. 
+35. 
